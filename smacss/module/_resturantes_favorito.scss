@@ -1,7 +1,8 @@
 .principalAppComida{
 
 &__restaurantes_favorito{
-    background-color: #eceeef;
+    background-color: #eceeef ;
+    
    h2 {
     color:#455a64;
     text-align: center;
@@ -22,7 +23,14 @@
          display: flex;
          justify-content: space-between;
          align-items: center;
-         margin-bottom: 40px;
+        
+         &:nth-child(10){
+            margin-bottom: 60px;               
+        }
+
+        &:nth-child(9){
+            margin-bottom: 60px;               
+        }
          
             &__imagen{
                 
@@ -42,6 +50,10 @@
                     font-size: 20px;
                     color:$colorrojo;
                     font-weight: 500px;
+                }
+
+                p{
+                    color:#455a64;
                 }
             }
         }

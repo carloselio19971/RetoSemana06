@@ -460,10 +460,10 @@ body {
   justify-content: space-between;
 }
 .principalAppComida__testimoniales__testimonios__testimonio__testimonio1_usuario__imagen {
-  width: 400px;
+  width: 200px;
 }
 .principalAppComida__testimoniales__testimonios__testimonio__testimonio1_usuario__imagen img {
-  width: 90%;
+  width: 70px;
   border-radius: 50%;
   padding: 5px;
 }
@@ -482,9 +482,8 @@ body {
   width: 35%;
 }
 .principalAppComida__testimoniales__testimonios__testimonio__testimonio1_descripcion p {
-  margin-top: 60px;
-  padding-bottom: 20px;
-  font-size: 15px;
+  padding: 5px;
+  font-size: 13px;
   line-height: 1.5;
 }
 .principalAppComida__testimoniales__testimonios__testimonio__testimonio2_usuario {
@@ -517,6 +516,99 @@ body {
   font-size: 13px;
   line-height: 1.5;
 }
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio3_usuario {
+  display: flex;
+  justify-content: space-between;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio3_usuario__imagen {
+  width: 50px;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio3_usuario__imagen img {
+  width: 90%;
+  border-radius: 50%;
+  padding: 5px;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio3_usuario__descripcion-Imagen {
+  margin-left: 10px;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio3_usuario__descripcion-Imagen__titulo h2 {
+  color: white;
+  font-size: 15px;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio3_usuario__descripcion-Imagen__estrella {
+  margin-top: -20px;
+  width: 80px;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio3_usuario__descripcion-Imagen__estrella img {
+  width: 80%;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio3_descripcion p {
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 20px;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio4_usuario {
+  display: flex;
+  justify-content: space-between;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio4_usuario__imagen {
+  width: 200px;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio4_usuario__imagen img {
+  width: 70px;
+  border-radius: 50%;
+  padding: 5px;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio4_usuario__descripcion-Imagen {
+  margin-left: 10px;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio4_usuario__descripcion-Imagen__titulo h2 {
+  color: white;
+  font-size: 15px;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio4_usuario__descripcion-Imagen__estrella {
+  margin-top: -20px;
+  width: 390px;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio4_usuario__descripcion-Imagen__estrella img {
+  width: 35%;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio4_descripcion p {
+  padding: 5px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio5_usuario {
+  display: flex;
+  justify-content: space-between;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio5_usuario__imagen {
+  width: 200px;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio5_usuario__imagen img {
+  width: 70px;
+  border-radius: 50%;
+  padding: 5px;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio5_usuario__descripcion-Imagen {
+  margin-left: 10px;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio5_usuario__descripcion-Imagen__titulo h2 {
+  color: white;
+  font-size: 15px;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio5_usuario__descripcion-Imagen__estrella {
+  margin-top: -20px;
+  width: 390px;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio5_usuario__descripcion-Imagen__estrella img {
+  width: 35%;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio5_descripcion p {
+  padding: 5px;
+  font-size: 13px;
+  line-height: 1.5;
+}
 
 .principalAppComida__restaurantes_favorito {
   background-color: #eceeef;
@@ -538,7 +630,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 40px;
+}
+.principalAppComida__restaurantes_favorito__restaurante_favorito__item:nth-child(10) {
+  margin-bottom: 60px;
+}
+.principalAppComida__restaurantes_favorito__restaurante_favorito__item:nth-child(9) {
+  margin-bottom: 60px;
 }
 .principalAppComida__restaurantes_favorito__restaurante_favorito__item__imagen img {
   width: 100px;
@@ -555,13 +652,17 @@ body {
   color: #e8505b;
   font-weight: 500px;
 }
+.principalAppComida__restaurantes_favorito__restaurante_favorito__item__informacion p {
+  color: #455a64;
+}
 
 .principalAppComida__ganaDineroConNosotros {
   height: 500px;
 }
 .principalAppComida__ganaDineroConNosotros h2 {
   text-align: center;
-  padding: 50px;
+  padding: 30px;
+  color: #455a64;
 }
 .principalAppComida__ganaDineroConNosotros__contenedor-gana-dinero {
   display: flex;
@@ -572,6 +673,7 @@ body {
 }
 .principalAppComida__ganaDineroConNosotros__contenedor-gana-dinero p {
   padding: 10px;
+  color: #455a64;
 }
 
 .boton {

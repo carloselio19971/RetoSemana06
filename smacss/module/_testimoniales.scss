@@ -50,13 +50,13 @@
 
                     &__imagen{
                      
-                        width:400px;
+                        width:200px;
                        
 
             
                         
                         img{
-                            width: 90%;
+                            width: 70px;
                             border-radius: 50%;
                             padding: 5px;
     
@@ -90,12 +90,12 @@
 
                 &__testimonio1_descripcion{
                     
-
                     p{
-                        margin-top: 60px;
-                        padding-bottom: 20px;
-                        font-size: 15px;
+                      
+                        padding: 5px;
+                        font-size: 13px;
                         line-height: 1.5;
+
                     }
                 }
 
@@ -157,6 +157,178 @@
                         line-height: 1.5;
                     }
                 }
+
+
+                &__testimonio3_usuario{
+                    display: flex;
+                    justify-content: space-between;
+                 
+
+                    &__imagen{
+                     
+                        width:50px;
+                       
+
+            
+                        
+                        img{
+                            width: 90%;
+                            border-radius: 50%;
+                            padding: 5px;
+    
+                        }
+
+                       
+                    }
+
+                    &__descripcion-Imagen{
+                        margin-left: 10px;
+                
+                       
+                        &__titulo{
+                            h2 {
+                                color: white;
+                                font-size: 15px;
+                            }
+                          
+                        }
+
+                        &__estrella{
+                            margin-top: -20px;
+                            width:80px;
+
+                            img {
+                                width: 80%;
+                            }
+                        }
+                    }
+                }      
+
+                &__testimonio3_descripcion{
+                    
+
+                    p{
+            
+                        font-size: 14px;
+                        line-height: 1.5;
+                        padding: 20px;
+                    }
+                }
+
+
+                &__testimonio4_usuario{
+                    display: flex;
+                    justify-content: space-between;
+                 
+
+                    &__imagen{
+                     
+                        width:200px;
+                       
+
+            
+                        
+                        img{
+                            width: 70px;
+                            border-radius: 50%;
+                            padding: 5px;
+    
+                        }
+
+                       
+                    }
+
+                    &__descripcion-Imagen{
+                        margin-left: 10px;
+                
+                       
+                        &__titulo{
+                            h2 {
+                                color: white;
+                                font-size: 15px;
+                            }
+                          
+                        }
+
+                        &__estrella{
+                            margin-top: -20px;
+                            width:390px;
+
+                            img {
+                                width: 35%;
+                            }
+                        }
+                    }
+                }      
+
+                &__testimonio4_descripcion{
+                    
+                    p{
+                      
+                        padding: 5px;
+                        font-size: 13px;
+                        line-height: 1.5;
+
+                    }
+                }
+
+
+                &__testimonio5_usuario{
+                    display: flex;
+                    justify-content: space-between;
+                 
+
+                    &__imagen{
+                     
+                        width:200px;
+                       
+
+            
+                        
+                        img{
+                            width: 70px;
+                            border-radius: 50%;
+                            padding: 5px;
+    
+                        }
+
+                       
+                    }
+
+                    &__descripcion-Imagen{
+                        margin-left: 10px;
+                
+                       
+                        &__titulo{
+                            h2 {
+                                color: white;
+                                font-size: 15px;
+                            }
+                          
+                        }
+
+                        &__estrella{
+                            margin-top: -20px;
+                            width:390px;
+
+                            img {
+                                width: 35%;
+                            }
+                        }
+                    }
+                }      
+
+                &__testimonio5_descripcion{
+                    
+                    p{
+                      
+                        padding: 5px;
+                        font-size: 13px;
+                        line-height: 1.5;
+
+                    }
+                }
+
 
             }
     }
