@@ -18,6 +18,7 @@
                     text-align: center;
                 }
                 background-color: #455a64;
+                border-radius: 3px;
 
                 margin:10px;
 
@@ -42,83 +43,126 @@
                    
                 }  
 
-                &__header{
+                &__testimonio1_usuario{
                     display: flex;
-                    justify-content: space-around;
+                    justify-content: space-between;
+                 
 
+                    &__imagen{
+                     
+                        width:400px;
+                       
+
+            
+                        
+                        img{
+                            width: 90%;
+                            border-radius: 50%;
+                            padding: 5px;
+    
+                        }
+
+                       
+                    }
+
+                    &__descripcion-Imagen{
+                        margin-left: 10px;
+                
+                       
+                        &__titulo{
+                            h2 {
+                                color: white;
+                                font-size: 15px;
+                            }
+                          
+                        }
+
+                        &__estrella{
+                            margin-top: -20px;
+                            width:390px;
+
+                            img {
+                                width: 35%;
+                            }
+                        }
+                    }
+                }      
+
+                &__testimonio1_descripcion{
+                    
+
+                    p{
+                        margin-top: 60px;
+                        padding-bottom: 20px;
+                        font-size: 15px;
+                        line-height: 1.5;
+                    }
                 }
 
-                &__texto{
-                    font-size: 15px;
-                    margin: 10px;
-                    text-align: center;
-                }        
-     }
-    }
-    }
 
 
-}
-
-.testimonio-1{
-
-    .principalAppComida__testimoniales__testimonios__testimonio__header__imagen{
-        img{
-           width: 150px;
-           border-radius: 50%;
-           margin-top: 15px;
-        }
-     } 
-}
-
-.testimonio-2{
-   width: 240px;
-   .principalAppComida__testimoniales__testimonios__testimonio__header__imagen{
-    img{
-       width: 50px;
-       border-radius: 50%;
-       margin-top: 15px;
-       margin-bottom: 50px;
-    }
- } 
-}
-
-.estrella-2{
-   
-    img{
-        height: 20px;
-    }
-}
-
-.testimonio-3{
-    width: 140px;
-    .principalAppComida__testimoniales__testimonios__testimonio__header{
-        img{
-            width: 2px;
-           margin-bottom: 100px;
-     
-           height: 30%;
-           
-        }
 
 
+                &__testimonio2_usuario{
+                    display: flex;
+                    justify-content: space-between;
+                 
+
+                    &__imagen{
+                     
+                        width:50px;
+                       
+
+            
+                        
+                        img{
+                            width: 90%;
+                            border-radius: 50%;
+                            padding: 5px;
     
-    img {
-        width: 70px;
+                        }
+
+                       
+                    }
+
+                    &__descripcion-Imagen{
+                        margin-left: 10px;
+                
+                       
+                        &__titulo{
+                            h2 {
+                                color: white;
+                                font-size: 15px;
+                            }
+                          
+                        }
+
+                        &__estrella{
+                            margin-top: -20px;
+                            width:80px;
+
+                            img {
+                                width: 80%;
+                            }
+                        }
+                    }
+                }      
+
+                &__testimonio2_descripcion{
+                    
+
+                    p{
+            
+                        font-size: 13px;
+                        line-height: 1.5;
+                    }
+                }
+
+            }
     }
-    p{
-        font: 30px;
+
     }
-
 }
+    
 
-}
 
-.testimonio-4{
-    width: 350px;
-}
-
-.testimonio-5{
-    width: 360px;
-
-}

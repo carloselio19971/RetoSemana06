@@ -435,6 +435,7 @@ body {
 }
 .principalAppComida__testimoniales__testimonios__testimonio {
   background-color: #455a64;
+  border-radius: 3px;
   margin: 10px;
 }
 .principalAppComida__testimoniales__testimonios__testimonio p {
@@ -454,57 +455,67 @@ body {
 .principalAppComida__testimoniales__testimonios__testimonio:nth-child(5) {
   grid-column: 3/5;
 }
-.principalAppComida__testimoniales__testimonios__testimonio__header {
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio1_usuario {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-.principalAppComida__testimoniales__testimonios__testimonio__texto {
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio1_usuario__imagen {
+  width: 400px;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio1_usuario__imagen img {
+  width: 90%;
+  border-radius: 50%;
+  padding: 5px;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio1_usuario__descripcion-Imagen {
+  margin-left: 10px;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio1_usuario__descripcion-Imagen__titulo h2 {
+  color: white;
   font-size: 15px;
-  margin: 10px;
-  text-align: center;
 }
-
-.testimonio-1 .principalAppComida__testimoniales__testimonios__testimonio__header__imagen img {
-  width: 150px;
-  border-radius: 50%;
-  margin-top: 15px;
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio1_usuario__descripcion-Imagen__estrella {
+  margin-top: -20px;
+  width: 390px;
 }
-
-.testimonio-2 {
-  width: 240px;
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio1_usuario__descripcion-Imagen__estrella img {
+  width: 35%;
 }
-.testimonio-2 .principalAppComida__testimoniales__testimonios__testimonio__header__imagen img {
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio1_descripcion p {
+  margin-top: 60px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio2_usuario {
+  display: flex;
+  justify-content: space-between;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio2_usuario__imagen {
   width: 50px;
+}
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio2_usuario__imagen img {
+  width: 90%;
   border-radius: 50%;
-  margin-top: 15px;
-  margin-bottom: 50px;
+  padding: 5px;
 }
-
-.estrella-2 img {
-  height: 20px;
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio2_usuario__descripcion-Imagen {
+  margin-left: 10px;
 }
-
-.testimonio-3 {
-  width: 140px;
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio2_usuario__descripcion-Imagen__titulo h2 {
+  color: white;
+  font-size: 15px;
 }
-.testimonio-3 .principalAppComida__testimoniales__testimonios__testimonio__header img {
-  width: 2px;
-  margin-bottom: 100px;
-  height: 30%;
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio2_usuario__descripcion-Imagen__estrella {
+  margin-top: -20px;
+  width: 80px;
 }
-.testimonio-3 .principalAppComida__testimoniales__testimonios__testimonio__header img {
-  width: 70px;
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio2_usuario__descripcion-Imagen__estrella img {
+  width: 80%;
 }
-.testimonio-3 .principalAppComida__testimoniales__testimonios__testimonio__header p {
-  font: 30px;
-}
-
-.testimonio-4 {
-  width: 350px;
-}
-
-.testimonio-5 {
-  width: 360px;
+.principalAppComida__testimoniales__testimonios__testimonio__testimonio2_descripcion p {
+  font-size: 13px;
+  line-height: 1.5;
 }
 
 .principalAppComida__restaurantes_favorito {
