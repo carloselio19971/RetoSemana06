@@ -1,0 +1,40 @@
+.containerFooterAppComida{
+    display:flex;
+    justify-content:space-between;
+ 
+    color:white;
+    line-height: 1.5;
+
+
+    &__nosotros{
+        width: 250px;
+       
+    }
+
+    &__navegacion{
+        width: 250px;
+        
+        &__list{
+            list-style: none;
+        }
+    }
+
+    &__contacto{
+        width: 250px;
+        
+    }
+
+    &__derechosAutor{
+        background-color: #e8505b;
+        text-align: center;
+        padding: 5px;
+    }
+}
+
+.containerglobalFooterAppComida{
+    background-color: #455a64;
+    text-align: center;
+    color:white;
+  
+    
+}

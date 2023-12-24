@@ -1,0 +1,14 @@
+@import '../theme/theme';
+
+body {
+
+   font-family: $tipoLetra;
+   font-weight: 700;
+
+}
+
+.ancho{
+    width: $anchoContenidoCentral;
+    margin: 0 auto;
+
+}

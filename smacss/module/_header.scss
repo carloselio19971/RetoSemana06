@@ -1,0 +1,15 @@
+.containerHeaderAppComida{
+    width: 100;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    &__logo {
+        width: $anchoLogo;
+    
+    img {
+        width:100%;
+    }
+    
+    }
+
+}

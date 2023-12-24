@@ -1,0 +1,38 @@
+.principalAppComida{
+
+
+    &__ganaDineroConNosotros{
+        
+        height: 500px;
+
+        h2{
+            text-align: center;
+            padding: 50px;
+        }
+
+        &__contenedor-gana-dinero{
+            display:flex;
+            
+            img {
+                width: 300px;
+                padding: 10px;
+            }
+            p{
+                padding: 10px;
+            }
+
+           
+        }
+      
+       
+    }
+}
+
+.boton{
+    background-color: #e8505b;
+    border: none;
+    color:white;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 1rem;
+}

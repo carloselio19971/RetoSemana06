@@ -1,0 +1,24 @@
+.principalAppComida{
+
+    &__comoFunciona{
+        background-color: $colorrojo;
+        
+        &__texto{
+            color:white;
+            text-align: center;
+            padding-top: 5px;
+        }
+
+        &__imagenes{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+
+            &__item img{
+                width: 250px;
+            }
+        }   
+
+
+    }
+}
+

@@ -1,0 +1,54 @@
+.principalAppComida{
+        margin-top: 30px;
+    &__pideTuComida{
+        margin-top: 15px;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap:50px;
+        
+        
+        &__formulario{
+            background-color: $colorrojo;
+            padding: 15px;
+        
+            
+            h2{
+                padding-top:30px;
+                padding-bottom:30px;
+                color:$colorblanco;
+                font-size: 1.5rem;
+                text-align: center;
+            
+            }
+         &__campo{
+            width: 100%;
+            margin-bottom: 5px;
+            color:white;
+            font-weight: 100;
+
+            input{
+                margin-top: 5px;
+                width: 350px;
+                font-size: 0.5rem;
+                padding: 7px;
+                border:none;
+            
+            }
+        }
+        }
+
+    }
+
+}
+
+
+#boton{
+    background-color: #455a64;
+    color:$colorblanco;
+    border-radius: 3px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    padding: 8px;
+}

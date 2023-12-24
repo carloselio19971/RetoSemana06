@@ -1,0 +1,42 @@
+@import '../theme/theme';
+
+.containerHeaderAppComida{
+
+ &__menu{
+    width: $anchoMenu;
+   
+
+ &__list{
+    display: flex;
+    justify-content: space-between;
+
+    &__item{
+        list-style: none;
+      
+        &__link{
+            text-decoration: none;
+            color: $colorNegro;
+            font-size:$letramenu;
+           
+        
+          &__button{
+            background-color: $colorrojo;
+            color: $colorletraMenu;
+            border: none;
+            border-radius: 0.5rem;
+            font-size:$letramenu;
+            padding:9px;
+            text-decoration: none;
+            
+        
+    
+          }
+        }
+    }
+ }
+
+}
+
+}
+
+

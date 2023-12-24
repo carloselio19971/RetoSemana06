@@ -1,0 +1,50 @@
+.principalAppComida{
+
+&__restaurantes_favorito{
+    background-color: #eceeef;
+   h2 {
+    color:#455a64;
+    text-align: center;
+    padding: 50px;
+
+   }
+
+   &__restaurante_favorito{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:20px;
+
+        &__item{
+          
+         background-color:white;
+         border-radius: 1rem;
+         box-shadow:0px 0px 2.6rem -0.8rem #99a4a9;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         margin-bottom: 40px;
+         
+            &__imagen{
+                
+                img {
+                    width: 100px;
+                    margin: 40px;
+                }
+            }
+
+            &__informacion{
+                margin: 20px;
+                img {
+                    width: 150px;
+                }
+
+                h1{
+                    font-size: 20px;
+                    color:$colorrojo;
+                    font-weight: 500px;
+                }
+            }
+        }
+   }
+}
+}
